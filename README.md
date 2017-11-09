@@ -22,7 +22,7 @@ Note, this example uses an NFS container that doesn't support NFSv4.
 ## Quickstart
 
 ```console
-$ kubectl create -f examples/volumes/nfs/provisioner/nfs-server-gce-pv.yaml
+$ kubectl create -f provisioner/nfs-server-gce-pv.yaml
 $ kubectl create -f examples/volumes/nfs/nfs-server-rc.yaml
 $ kubectl create -f examples/volumes/nfs/nfs-server-service.yaml
 # get the cluster IP of the server using the following command
