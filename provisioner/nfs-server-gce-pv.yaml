@@ -10,4 +10,5 @@ spec:
   accessModes: [ "ReadWriteOnce" ]
   resources:
     requests:
-      storage: 500Mi
+    #fix this accordly your requirements
+      storage: 1Gi
