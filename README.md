@@ -18,8 +18,6 @@ As illustrated above, two persistent volumes are used in this example:
 
 Note, this example uses an NFS container that doesn't support NFSv4.
 
-[nfs pv example]: nfs-pv.png
-
 
 ## Quickstart
 
